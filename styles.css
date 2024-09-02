@@ -1,0 +1,14 @@
+img {
+    border: 2px solid green;
+}
+
+ul {
+    border: 2px solid greenyellow;
+    font-size: larger;
+}
+
+ol {
+    border: 2px solid yellow;
+    font-size: larger;
+    
+}
