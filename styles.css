@@ -1,26 +1,89 @@
-img {
-    border: 2px solid green;
+.lasagna-container,
+.ramen-container {
+  background-color: lightblue;
+  display: flexbox;
+  border: 6px solid black;
+  padding: 10px;
+}
+.lasagna-pic,
+.ramen-intro-pic,.ramen-cooking-pic1,.ramen-cooking-pic2,.ramen-cooking-pic3 {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-ul {
-    border: 2px solid greenyellow;
-    font-size: larger;
+.ramen-cooking-pic2,.ramen-cooking-pic1{
+    margin-bottom: 3px;
+}
+.ramen-cooking-pic3 {
+    margin-top: 3px;
 }
 
-ol {
-    border: 2px solid yellow;
-    font-size: larger;
+.lasagna-intro-section {
+  background-color: cornsilk;
+  border: 4px solid black;
+  padding: 10px;
+}
+.lasagna-paragraph,
+.lasagna-times-container,
+.lasagna-ingredients-title,
+.lasagna-cooking-title,
+.lasagna-ingredients-paragraph,
+.lasagna-intro-title,
+.ramen-intro-title,
+.ramen-paragraph,
+.ramen-times-container,
+.ramen-ingredients-title,
+.ramen-cooking-title {
+  text-align: center;
+}
+
+.lasagna-ingredients-title,
+.lasagna-cooking-title,
+.lasagna-intro-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.lasagna-ingredients-list,
+.lasagna-cooking-list,
+.lasagna-ingredients-paragraph,
+.lasagna-paragraph {
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.ramen-container {
+  background-color: lightsalmon;
+}
+.ramen-intro-section,.ramen-ingredients-section,.ramen-cooking-section {
+    border: 4px solid black;
+    padding: 10px;
+    margin: 5px;
     
 }
-h1 {
-    color: darkgreen;
+.ramen-intro-section {
+    background-color: rgb(198, 252, 198);
 }
-h2 {
-    color: darkgreen;
+.ramen-times-container {
+    border: 4px solid black;
+    margin: 5px;
+    padding: 10px;
+    background-color: lemonchiffon;
 }
-h3 {
-    color: darkgreen;
+
+.ramen-ingredients-section {
+    background-color: lightblue;
 }
-h4 {
-    color: darkgreen;
+
+.ramen-cooking-section {
+    background-color: rgb(214, 177, 202);
+}
+
+.ramen-intro-title,.ramen-ingredients-title,.ramen-cooking-title {
+   font-family: cursive;
+}
+
+.ramen-ingredients-list,.ramen-cooking-list,.ramen-paragraph {
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
